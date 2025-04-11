@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_vi/second_screen.dart';
+import 'package:bottomNavigationBar/screen.dart';
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
@@ -7,7 +7,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: SecondScreen(),
+      home: Screen(),
     );
   }
 }
