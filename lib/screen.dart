@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:bottomNavigationBar/pages/first_page.dart';
-import 'package:bottomNavigationBar/pages/second_page.dart';
-import 'package:bottomNavigationBar/pages/third_page.dart';
-import 'package:bottomNavigationBar/pages/fourth_page.dart';
+import 'package:drawer/pages/first_page.dart';
+import 'package:drawer/pages/second_page.dart';
+import 'package:drawer/pages/third_page.dart';
+import 'package:drawer/pages/fourth_page.dart';
 
 class Screen extends StatefulWidget {
   const Screen({super.key});
@@ -13,7 +13,6 @@ class Screen extends StatefulWidget {
 
 class _ScreenState extends State<Screen> {
   int _pageIndex = 0;
-
   final List<Widget> pages = [
     const FirstPage(),
     const SecondPage(),

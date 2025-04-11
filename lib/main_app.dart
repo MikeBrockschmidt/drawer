@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:bottomNavigationBar/screen.dart';
+import 'package:drawer/screen.dart';
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
